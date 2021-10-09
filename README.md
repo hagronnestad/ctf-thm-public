@@ -12,9 +12,9 @@ This repository contains all my public writeups for TryHackMe. I try to keep all
 ---
 
 ## TryHackMe Profile Badge
-![https://tryhackme.com/p/hag](https://tryhackme-badges.s3.amazonaws.com/hag.png "")
+Profile: https://tryhackme.com/p/hag
 
-My Profile: https://tryhackme.com/p/hag
+<img src="https://tryhackme-badges.s3.amazonaws.com/hag.png" alt="TryHackMe">
 
 
 ## Certificates
