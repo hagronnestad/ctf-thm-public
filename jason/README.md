@@ -1,4 +1,4 @@
-# `jason`
+# jason
 
 ### https://tryhackme.com/room/jason
 ### Hein Andre Grønnestad
@@ -76,7 +76,7 @@ $ echo eyJlbWFpbCI6ImRkQGRkLmRkIn0= | base64 -d
 ```
 
 The website says:
-> `We'll keep you updated at: dd@dd.dd`.
+> We'll keep you updated at: dd@dd.dd
 
 And:
 
