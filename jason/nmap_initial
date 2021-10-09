@@ -1,0 +1,100 @@
+# Nmap 7.91 scan initiated Sat Oct  9 16:21:19 2021 as: nmap -vvv -sC -sV -oN nmap_initial 10.10.171.154
+Nmap scan report for 10.10.171.154
+Host is up, received syn-ack (0.046s latency).
+Scanned at 2021-10-09 16:21:19 CEST for 18s
+Not shown: 998 closed ports
+Reason: 998 conn-refused
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 8.2p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 5b:2d:9d:60:a7:45:de:7a:99:20:3e:42:94:ce:19:3c (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDEav+HAGw7xuVSR7QKeKvPc2ZpLfgIJ2azj8wt8S3VdC0yPI5cgFTwrdyZ/b9nHwZb2ibA2Ld12zn4zObnoRLU05emZ0qSpyssEN6+xF2E9SSbe9o79UuJX7KoCAc4oKHdL6vme9Gt1NpmL7UVXaK8LG0wMJ0PAi90NPSp6yCqX+Zh3ox5/ozOw6J0fVWJhq+OpMq3uRdh4C4XQF5ZAN+Yf9uGy5er+VOCOt2Gio2Y+4O2VmQa+d16qJXziOV3tCwronfd8C2FXvbGWNjKnEpn7qmf5TFW7DmOs6lbvhNSqNImKHYPKeMJHDj/0MyjXMHrmYSMvQ/jHsdi1e8wUz4tIOkjrVkEy1BF6rJ20e0mdsJOnk4CrGqbNCvPoCCV0Sn4+IeOsDTqmXjzI6oVZZ/mEJM0p+AxC+a8NUU7IRtDOXQH9bl2/g5N0n3UfpGjz+gmQxQMhcziZobRVUY8b+6TneDi4WLD889XWh0kemP8srXb/BR/DUsCvXJvAZ1gDbU=
+|   256 bf:32:78:01:83:af:78:5e:e7:fe:9c:83:4a:7d:aa:6b (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKWImj6zzJJnO+2iTNXciJVkpCVcDC82aeGnvA3GVC4G1J7mwk1TYrRemrCBlwhm+BUzvs0q2qKk/9VCh1+kKlA=
+|   256 12:ab:13:80:e5:ad:73:07:c8:48:d5:ca:7c:7d:e0:af (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINEIOgTDXXq96o6fNCrn3mQ8JpGFHhx6AtZGEOG4Z+oF
+80/tcp open  http    syn-ack
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     Content-Type: text/html
+|     Date: Sat, 09 Oct 2021 14:21:29 GMT
+|     Connection: close
+|     <html><head>
+|     <title>Horror LLC</title>
+|     <style>
+|     body {
+|     background: linear-gradient(253deg, #4a040d, #3b0b54, #3a343b);
+|     background-size: 300% 300%;
+|     -webkit-animation: Background 10s ease infinite;
+|     -moz-animation: Background 10s ease infinite;
+|     animation: Background 10s ease infinite;
+|     @-webkit-keyframes Background {
+|     background-position: 0% 50%
+|     background-position: 100% 50%
+|     100% {
+|     background-position: 0% 50%
+|     @-moz-keyframes Background {
+|     background-position: 0% 50%
+|     background-position: 100% 50%
+|     100% {
+|     background-position: 0% 50%
+|     @keyframes Background {
+|     background-position: 0% 50%
+|_    background-posi
+|_http-favicon: Unknown favicon MD5: 8FCEA7DE73B9ED47DE799DB3AE6363A8
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Horror LLC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.91%I=7%D=10/9%Time=6161A567%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,E4B,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text/html\r\nDat
+SF:e:\x20Sat,\x2009\x20Oct\x202021\x2014:21:29\x20GMT\r\nConnection:\x20cl
+SF:ose\r\n\r\n<html><head>\n<title>Horror\x20LLC</title>\n<style>\n\x20\x2
+SF:0body\x20{\n\x20\x20\x20\x20background:\x20linear-gradient\(253deg,\x20
+SF:#4a040d,\x20#3b0b54,\x20#3a343b\);\n\x20\x20\x20\x20background-size:\x2
+SF:0300%\x20300%;\n\x20\x20\x20\x20-webkit-animation:\x20Background\x2010s
+SF:\x20ease\x20infinite;\n\x20\x20\x20\x20-moz-animation:\x20Background\x2
+SF:010s\x20ease\x20infinite;\n\x20\x20\x20\x20animation:\x20Background\x20
+SF:10s\x20ease\x20infinite;\n\x20\x20}\n\x20\x20\n\x20\x20@-webkit-keyfram
+SF:es\x20Background\x20{\n\x20\x20\x20\x200%\x20{\n\x20\x20\x20\x20\x20\x2
+SF:0background-position:\x200%\x2050%\n\x20\x20\x20\x20}\n\x20\x20\x20\x20
+SF:50%\x20{\n\x20\x20\x20\x20\x20\x20background-position:\x20100%\x2050%\n
+SF:\x20\x20\x20\x20}\n\x20\x20\x20\x20100%\x20{\n\x20\x20\x20\x20\x20\x20b
+SF:ackground-position:\x200%\x2050%\n\x20\x20\x20\x20}\n\x20\x20}\n\x20\x2
+SF:0\n\x20\x20@-moz-keyframes\x20Background\x20{\n\x20\x20\x20\x200%\x20{\
+SF:n\x20\x20\x20\x20\x20\x20background-position:\x200%\x2050%\n\x20\x20\x2
+SF:0\x20}\n\x20\x20\x20\x2050%\x20{\n\x20\x20\x20\x20\x20\x20background-po
+SF:sition:\x20100%\x2050%\n\x20\x20\x20\x20}\n\x20\x20\x20\x20100%\x20{\n\
+SF:x20\x20\x20\x20\x20\x20background-position:\x200%\x2050%\n\x20\x20\x20\
+SF:x20}\n\x20\x20}\n\x20\x20\n\x20\x20@keyframes\x20Background\x20{\n\x20\
+SF:x20\x20\x200%\x20{\n\x20\x20\x20\x20\x20\x20background-position:\x200%\
+SF:x2050%\n\x20\x20\x20\x20}\n\x20\x20\x20\x2050%\x20{\n\x20\x20\x20\x20\x
+SF:20\x20background-posi")%r(HTTPOptions,E4B,"HTTP/1\.1\x20200\x20OK\r\nCo
+SF:ntent-Type:\x20text/html\r\nDate:\x20Sat,\x2009\x20Oct\x202021\x2014:21
+SF::29\x20GMT\r\nConnection:\x20close\r\n\r\n<html><head>\n<title>Horror\x
+SF:20LLC</title>\n<style>\n\x20\x20body\x20{\n\x20\x20\x20\x20background:\
+SF:x20linear-gradient\(253deg,\x20#4a040d,\x20#3b0b54,\x20#3a343b\);\n\x20
+SF:\x20\x20\x20background-size:\x20300%\x20300%;\n\x20\x20\x20\x20-webkit-
+SF:animation:\x20Background\x2010s\x20ease\x20infinite;\n\x20\x20\x20\x20-
+SF:moz-animation:\x20Background\x2010s\x20ease\x20infinite;\n\x20\x20\x20\
+SF:x20animation:\x20Background\x2010s\x20ease\x20infinite;\n\x20\x20}\n\x2
+SF:0\x20\n\x20\x20@-webkit-keyframes\x20Background\x20{\n\x20\x20\x20\x200
+SF:%\x20{\n\x20\x20\x20\x20\x20\x20background-position:\x200%\x2050%\n\x20
+SF:\x20\x20\x20}\n\x20\x20\x20\x2050%\x20{\n\x20\x20\x20\x20\x20\x20backgr
+SF:ound-position:\x20100%\x2050%\n\x20\x20\x20\x20}\n\x20\x20\x20\x20100%\
+SF:x20{\n\x20\x20\x20\x20\x20\x20background-position:\x200%\x2050%\n\x20\x
+SF:20\x20\x20}\n\x20\x20}\n\x20\x20\n\x20\x20@-moz-keyframes\x20Background
+SF:\x20{\n\x20\x20\x20\x200%\x20{\n\x20\x20\x20\x20\x20\x20background-posi
+SF:tion:\x200%\x2050%\n\x20\x20\x20\x20}\n\x20\x20\x20\x2050%\x20{\n\x20\x
+SF:20\x20\x20\x20\x20background-position:\x20100%\x2050%\n\x20\x20\x20\x20
+SF:}\n\x20\x20\x20\x20100%\x20{\n\x20\x20\x20\x20\x20\x20background-positi
+SF:on:\x200%\x2050%\n\x20\x20\x20\x20}\n\x20\x20}\n\x20\x20\n\x20\x20@keyf
+SF:rames\x20Background\x20{\n\x20\x20\x20\x200%\x20{\n\x20\x20\x20\x20\x20
+SF:\x20background-position:\x200%\x2050%\n\x20\x20\x20\x20}\n\x20\x20\x20\
+SF:x2050%\x20{\n\x20\x20\x20\x20\x20\x20background-posi");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct  9 16:21:37 2021 -- 1 IP address (1 host up) scanned in 17.62 seconds
