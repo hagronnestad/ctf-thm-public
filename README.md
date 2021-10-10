@@ -14,7 +14,7 @@ This repository contains all my public writeups for TryHackMe. I try to keep all
 ## TryHackMe Profile Badge
 Profile: https://tryhackme.com/p/hag
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/hag.png" alt="TryHackMe">
+![](http://167.99.220.97/thm/badge.php "")
 
 
 ## Certificates
