@@ -10,7 +10,7 @@
 
 We have access to the following web interface:
 
-![](01-screenshot.png "")
+![](/01-screenshot.png "")
 
 This web tool can be used to ping an IP address. Let's try it:
 
