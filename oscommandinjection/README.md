@@ -14,7 +14,7 @@ We have access to the following web interface:
 
 This web tool can be used to ping an IP address. Let's try it:
 
-![](02-screenshot.png "")
+![](02-screenshot.png)
 
 After waiting for the `ping`-command to finish, we get the following results back:
 
@@ -119,7 +119,7 @@ Payload:
 
 Output Screenshot:
 
-![](03-screenshot.png "")
+![](03-screenshot.png)
 
 We can see the HTML-page renderen in the browser, but with the PHP-variables visible.
 

