@@ -13,9 +13,11 @@ This repository contains all my public writeups for TryHackMe. I try to keep all
 
 ## Contents
 
-- [2022-03-08: Flatline](flatline) (https://tryhackme.com/room/flatline)
-- [2021-10-09: Jason](jason) (https://tryhackme.com/room/jason)
-- [2021-10-10: Command Injection](oscommandinjection) (https://tryhackme.com/room/oscommandinjection)
+| Date       | Writeup                                 | THM Link                                                            |
+|------------|-----------------------------------------|---------------------------------------------------------------------|
+| 2022-03-08 | [Flatline](flatline)                    | [flatline](https://tryhackme.com/room/flatline)                     |
+| 2021-10-09 | [Jason](jason)                          | [jason](https://tryhackme.com/room/jason)                           |
+| 2021-10-10 | [Command Injection](oscommandinjection) | [oscommandinjection](https://tryhackme.com/room/oscommandinjection) |
 
 ## TryHackMe Profile Badge
 Profile: [https://tryhackme.com/p/hag](https://tryhackme.com/p/hag)
